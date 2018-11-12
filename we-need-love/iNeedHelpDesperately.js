@@ -41,7 +41,7 @@ function _submit()
         document.getElementById("username").focus();
         Cancel();
     } else {
-
+        Login();
     }
 }
 
