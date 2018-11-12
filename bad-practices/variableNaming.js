@@ -1,3 +1,8 @@
+/**
+ * There are only two hard things in Computer Science: cache invalidation and naming things. 
+ *  — Phil Karlton
+ */
+
 // square root of n with Newton-Raphson approximation
 r = n / 2;
 while (Math.abs(r - (n / r)) > t) {

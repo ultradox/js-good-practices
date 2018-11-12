@@ -48,4 +48,10 @@ public String getRegistrationInfo(int userId){
   ...
 }
 
+/**
+ * If your feel your code is too complex to understand without comments, 
+ * your code is probably just bad. Rewrite it until it doesn’t need comments any more. 
+ * If, at the end of that effort, you still feel comments are necessary, 
+ * then by all means, add comments. Carefully.
+ */
 
