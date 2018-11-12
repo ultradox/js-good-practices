@@ -1,7 +1,7 @@
 
 const url = 'http://www.123fakewebaddress.kiwi/';
 
-function getRegisteredUsers(fields, include, fromDate, toDate) {
+function gtRgstrdUsrs(fields, include, fromDate, toDate) {
   return fetch(url, {
       method: "GET",
       headers: {
@@ -16,4 +16,4 @@ function getRegisteredUsers(fields, include, fromDate, toDate) {
     })
     .then(response => response.json());
 }
-getRegisteredUsers(['firstName', 'lastName', 'email'], ['invitedUsers'], '2016-09-26', '2016-12-13')
+gtRgstrdUsrs(['firstName', 'lastName', 'email'], ['invitedUsers'], '2016-09-26', '2016-12-13')
