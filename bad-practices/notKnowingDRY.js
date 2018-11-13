@@ -24,6 +24,8 @@ applyCSS(elemCollection[i], {
 
 // or
 
+// Sagar and Carlos have a question - we don't understand
+// how this solution works :)
 function applyCSS(el, styles) {
   for (var prop in styles) {
     if (!styles.hasOwnProperty || styles.hasOwnProperty(prop)) {
