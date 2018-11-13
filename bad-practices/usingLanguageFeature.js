@@ -26,3 +26,9 @@ var ids = things.map(function(thing) {
 // In this case, we immediately know that this produces a new array of something, 
 // because that’s the purpose of map(). This can be beneficial especially if you 
 // have more complicated looping logic. There’s a list of other iteration functions on MDN.
+
+// Merges data with original set, if boolean === true
+myThing.setData({ x: 1 }, true);
+
+// Much cleaner
+myThing.mergeData({ x: 1 });

@@ -10,7 +10,7 @@ while (Math.abs(r - (n / r)) > t) {
 }
 console.log("r = " + r);
 
-// Improved
+// ImprovedÍ›
 function SquareRootApproximation(num) {
   const root = num / 2;
   while (Math.abs(root - (num / root)) > t) {
@@ -21,3 +21,14 @@ function SquareRootApproximation(num) {
 console.log("root = " + SquareRootApproximation(144));
 
 // https://blog.codinghorror.com/coding-without-comments/
+
+
+// BAD!
+
+var btn = { clckEvnt: () => {} };
+var ctrl_pnl = new CtrlPnl(btn);
+
+// GOOD :)
+
+var button = { clickEvent: () => {} };
+var controlPanel = new ControlPanel(button);
